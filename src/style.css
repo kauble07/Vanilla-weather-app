@@ -46,7 +46,7 @@ li:first-letter {
   width: 64px;
 }
 .weather-temperature strong {
-  color: rgb (33, 33, 33);
+  color: rgb(33, 33, 33);
   font-size: 62px;
   font-weight: 400;
   line-height: 1;
@@ -60,4 +60,15 @@ li:first-letter {
 
 .col-6 {
   padding-right: 0;
+}
+
+a {
+  color: rgb(33, 33, 33);
+  text-decoration: none;
+  cursor: default;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
 }
