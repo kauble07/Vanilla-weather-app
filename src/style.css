@@ -41,34 +41,31 @@ li:first-letter {
 }
 .weather-temperature img {
   margin-right: 5px;
-  float: left;
   height: 64px;
   width: 64px;
 }
+
 .weather-temperature strong {
   color: rgb(33, 33, 33);
-  font-size: 62px;
-  font-weight: 400;
+  font-size: 64px;
   line-height: 1;
+  font-weight: 400;
 }
-.units {
+
+.weather-temperature .units {
   position: relative;
   font-size: 16px;
   top: -34px;
-  text-decoration-line: none;
 }
 
-.col-6 {
-  padding-right: 0;
-}
-
-a {
+.weather-temperature .active {
   color: rgb(33, 33, 33);
-  text-decoration: none;
   cursor: default;
 }
 
-a:hover {
-  color: blue;
+.weather-temperature .active:hover {
   text-decoration: none;
+}
+a {
+  text-decoration-line: none;
 }
